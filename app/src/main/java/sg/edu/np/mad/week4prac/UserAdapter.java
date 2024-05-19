@@ -30,6 +30,9 @@ public class UserAdapter extends RecyclerView.Adapter<UserViewHolder>{
         holder.description.setText(list_items.getDescription());
         //Configure setOnClickListener() for small image on view holder based on custom_activity_list.xml
 
+
+
+
     }
 
     public int getItemCount(){return list_objects.size();}
